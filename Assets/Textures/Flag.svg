@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="875"
+   height="500"
+   viewBox="0 0 231.51041 132.29167"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   sodipodi:docname="Flag.svg"
+   inkscape:export-filename="/home/mitchell/SharedDrive/Unity Projects/Observations/Assets/Textures/Flag.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="429.07308"
+     inkscape:cy="232.60694"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1848"
+     inkscape:window-height="1136"
+     inkscape:window-x="72"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-164.70832)">
+    <rect
+       style="fill:#000055;fill-opacity:1;stroke:none;stroke-width:26.45833206;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect815"
+       width="251.50075"
+       height="150.20547"
+       x="-10.156241"
+       y="156.68349" />
+    <ellipse
+       style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:2.84468978;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path825"
+       ry="30.387123"
+       rx="89.461838"
+       cy="298.4151"
+       cx="-142.60265"
+       transform="matrix(0.90589315,-0.42350632,0.82079615,0.57122122,0,0)"
+       inkscape:label="path825" />
+    <circle
+       r="48.375782"
+       cy="230.85417"
+       cx="115.75522"
+       id="circle823"
+       style="fill:#000055;fill-opacity:1;stroke:#ffffff;stroke-width:2.64583333;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <circle
+       r="18.223753"
+       cy="230.85417"
+       cx="115.75522"
+       id="circle819"
+       style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:5.29166666;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <circle
+       style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:3.96874999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path817"
+       cx="115.75522"
+       cy="230.85417"
+       r="33.134098" />
+    <path
+       transform="matrix(0.90589315,-0.42350632,0.82079615,0.57122122,0,0)"
+       id="ellipse863"
+       style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:2.84468978;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       sodipodi:type="arc"
+       sodipodi:cx="-142.60265"
+       sodipodi:cy="298.4151"
+       sodipodi:rx="89.461838"
+       sodipodi:ry="30.387123"
+       sodipodi:start="5.8625948"
+       sodipodi:end="4.1385598"
+       sodipodi:open="true"
+       d="m -60.937587,286.00805 a 89.461838,30.387123 0 0 1 -41.015873,39.47622 89.461838,30.387123 0 0 1 -118.16337,-11.89796 89.461838,30.387123 0 0 1 28.94966,-40.69118" />
+  </g>
+</svg>
