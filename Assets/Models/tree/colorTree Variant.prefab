@@ -124,10 +124,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2544480043430378828, guid: fe554f9960eaa8ab7b307e86145851a2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 121712793109757091, guid: fe554f9960eaa8ab7b307e86145851a2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: fe554f9960eaa8ab7b307e86145851a2,
         type: 3}
       propertyPath: m_Name
       value: colorTree Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fe554f9960eaa8ab7b307e86145851a2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe554f9960eaa8ab7b307e86145851a2, type: 3}
