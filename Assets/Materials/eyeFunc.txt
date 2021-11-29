@@ -1,0 +1,5 @@
+float pi = 3.14;
+float b = .5 -cos(pi*(c - .5) / w) * a;
+
+val1 = cos(pi * (x-.5) / w) * a + b - y;
+val2 = -cos(pi * (x-.5) / w) * a - b + 1 - y;
