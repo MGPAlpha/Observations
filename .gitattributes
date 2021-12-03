@@ -1,7 +1,6 @@
 *.sln eol=crlf
 *.csproj eol=crlf
 *.anim eol=lf
-*.asset eol=lf
 *.controller eol=lf
 *.mat eol=lf
 *.meta eol=lf
