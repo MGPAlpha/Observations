@@ -1,9 +1,24 @@
 fileFormatVersion: 2
-guid: b4c0ef5246ed1dfeeb6a8962b7dd8508
+guid: 6b191188b3ac6d161a5a998cd7c64ffd
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 132ca67adfc4fb024a0aa50c85692352, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nodes
+    second: {fileID: 2100000, guid: 98b31a952fa9378129d308a6672bf1a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tent fabric
+    second: {fileID: 2100000, guid: b7c98015cf311401e8aaa0fc2339ea80, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
