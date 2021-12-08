@@ -13,6 +13,9 @@ public class Datapad : MonoBehaviour
     [SerializeField] private GameObject helpScreen;
     [SerializeField] private GameObject logScreen;
     [SerializeField] private GameObject logEntryPrototype;
+    [SerializeField] private GameObject scrollBar;
+    [SerializeField] private RectTransform scrollTrack;
+    [SerializeField] private RectTransform scrollThumb;
     [SerializeField] private GameObject playbackScreen;
     [SerializeField] private GameObject radarScreen;
     [SerializeField] private GameObject radarPoint;
@@ -24,6 +27,8 @@ public class Datapad : MonoBehaviour
     [SerializeField] private float initialHelpScreenTime = 3f;
     [SerializeField] private float sleepTime = 5f;
 
+    [SerializeField] private int maxLogsOnScreen = 5;
+    private int scrollIndex = 0;
 
     [SerializeField] float maxRadarDistance = 100;
     [SerializeField] float radarShrinkDistance = 150;
@@ -62,13 +67,33 @@ public class Datapad : MonoBehaviour
                 logStatuses[i] = 1;
                 LogEntry le = logEntries[i].GetComponent<LogEntry>();
                 le.titleText.text = l.title;
-                le.indexText.text = "[" + (i + 1) + "]";
+                le.indexText.text = "[" + (i % maxLogsOnScreen + 1) + "]";
                 radarOn = false;
                 timeSinceActive = 0;
+                LogScroll(i / maxLogsOnScreen);
                 radarPoints[i].GetComponent<Image>().color = visitedRadarColor;
                 audioSource.PlayOneShot(notification, .5f);
+                if (l.autoPlay && !playing) {
+                    PlayLog(i);
+                }
             }
         }
+    }
+
+    private void LogScroll(int index) {
+        scrollIndex = Mathf.Clamp(index, 0, (logs.Length - 1) / maxLogsOnScreen);
+        for (int i = 0; i < logEntries.Length; i++) {
+            logEntries[i].SetActive(i / maxLogsOnScreen == scrollIndex);
+        }
+        scrollThumb.offsetMax = new Vector2(0, -((float) scrollIndex) / (logs.Length / maxLogsOnScreen + 1) * scrollTrack.rect.height);
+        scrollThumb.offsetMin = new Vector2(0, (1 - ((float) scrollIndex + 1) / (logs.Length / maxLogsOnScreen + 1)) * scrollTrack.rect.height);
+    }
+
+    private void PlayLog(int logIndex) {
+        logStatuses[logIndex] = 2;
+        playing = true;
+        audioSource.PlayOneShot(logs[logIndex].audio);
+        playbackScreen.GetComponentInChildren<TMPro.TextMeshProUGUI>().text = logs[logIndex].title;
     }
 
     // Start is called before the first frame update
@@ -81,7 +106,7 @@ public class Datapad : MonoBehaviour
         logEntries = new GameObject[logs.Length];
         for (int i = 0; i < logs.Length; i++) {
             GameObject newLogEntry = Instantiate(logEntryPrototype, logScreen.transform);
-            newLogEntry.GetComponent<RectTransform>().anchoredPosition += Vector2.down * 100 * i;
+            newLogEntry.GetComponent<RectTransform>().anchoredPosition += Vector2.down * 100 * (i % maxLogsOnScreen);
             LogEntry le = newLogEntry.GetComponent<LogEntry>();
             le.indexText.text = "[?]";
             le.titleText.text = "?????";
@@ -101,6 +126,10 @@ public class Datapad : MonoBehaviour
         radarPoint.SetActive(false);
 
         radarWidth = radarScreen.GetComponent<RectTransform>().sizeDelta.x;
+
+        if (logs.Length <= maxLogsOnScreen) scrollBar.SetActive(false);
+
+        LogScroll(0);
     }
 
     // Update is called once per frame
@@ -131,13 +160,17 @@ public class Datapad : MonoBehaviour
             radarOn = !radarOn;
         }
 
-        if (active) {
-            for (int i = 0; i < Mathf.Min(logs.Length, 9); i++) {
-                if (!playing && !radarOn && Input.GetKeyUp("" + (i + 1)) && logStatuses[i] > 0) {
-                    logStatuses[i] = 2;
-                    playing = true;
-                    audioSource.PlayOneShot(logs[i].audio);
-                    playbackScreen.GetComponentInChildren<TMPro.TextMeshProUGUI>().text = logs[i].title;
+        if (!playing && !radarOn && active) {
+            if (Input.GetKeyUp(KeyCode.R)) {
+                LogScroll(scrollIndex - 1);
+            } else if (Input.GetKeyUp(KeyCode.F)) {
+                LogScroll(scrollIndex + 1);
+            } else {
+                for (int i = 0; i < Mathf.Min(Mathf.Min(logs.Length - maxLogsOnScreen * scrollIndex, maxLogsOnScreen), 9); i++) {
+                    int logIndex = i + scrollIndex * maxLogsOnScreen;
+                    if (Input.GetKeyUp("" + (i % maxLogsOnScreen + 1)) && logStatuses[logIndex] > 0) {
+                        PlayLog(logIndex);
+                    }
                 }
             }
         }
