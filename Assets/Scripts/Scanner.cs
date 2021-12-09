@@ -8,6 +8,11 @@ public class Scanner : MonoBehaviour
 {
     public Datapad datapad;
 
+    public static Scanner _sc {
+        get;
+        private set;
+    }
+
     private Transform lastTargeted;
     [SerializeField] private GameObject scanBeam;
     [SerializeField] private float maxScanDistance = 20;
@@ -23,6 +28,11 @@ public class Scanner : MonoBehaviour
 
     [SerializeField] private PauseManager pause;
 
+    private void Awake()
+    {
+        _sc = this;
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -36,8 +46,8 @@ public class Scanner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (pause && pause.paused) return;
-        if (Input.GetMouseButton(0) && !Input.GetMouseButton(1)) {
+        if (PauseManager.paused) return;
+        if (Input.GetMouseButton(0) && !Input.GetMouseButton(1) && !Keypad._kp) {
             RaycastHit r;
             Physics.Raycast(transform.parent.position, transform.parent.forward, out r, 100, 64 + 8);
             if (r.transform && r.transform.gameObject.layer == 6 && r.distance <= maxScanDistance) {

@@ -69,7 +69,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         // Update is called once per frame
         private void Update()
         {
-            if (!pause || pause.paused) {
+            if (PauseManager.paused || Keypad._kp) {
                 return;
             }
 
@@ -137,6 +137,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
             {
                 m_MoveDir += Physics.gravity*m_GravityMultiplier*Time.fixedDeltaTime;
             }
+            if (Keypad._kp) m_MoveDir = new Vector3(0, m_MoveDir.y, 0);
             m_CollisionFlags = m_CharacterController.Move(m_MoveDir*Time.fixedDeltaTime);
 
             ProgressStepCycle(speed);
