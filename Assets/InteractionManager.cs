@@ -13,6 +13,8 @@ public class InteractionManager : MonoBehaviour
 
     [SerializeField] private LayerMask interactionLayers;
 
+    [SerializeField] private float maxDistance = 10f;
+
     [SerializeField] public Transform keypadPos;
 
     private void Awake()
@@ -35,7 +37,7 @@ public class InteractionManager : MonoBehaviour
                 Cursor.lockState = CursorLockMode.Locked;
             } else {
                 RaycastHit r;
-                if (Physics.Raycast(transform.position, transform.forward, out r, interactionLayers)) {
+                if (Physics.Raycast(transform.position, transform.forward, out r, maxDistance, interactionLayers)) {
                     Keypad possibleNewKeypad;
                     if (r.transform.gameObject.TryGetComponent<Keypad>(out possibleNewKeypad)) {
                         Keypad._kp = possibleNewKeypad;
