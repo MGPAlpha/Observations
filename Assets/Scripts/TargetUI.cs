@@ -20,6 +20,6 @@ public class TargetUI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        image.color = new Color(image.color.r, image.color.g, image.color.b, Mathf.MoveTowards(image.color.a, !titleDone || Input.GetMouseButton(1) ? 0 : 1, 1 / fadeTime * Time.deltaTime)); 
+        image.color = new Color(image.color.r, image.color.g, image.color.b, Mathf.MoveTowards(image.color.a, !titleDone || Keypad._kp || Input.GetMouseButton(1) ? 0 : 1, 1 / fadeTime * Time.deltaTime)); 
     }
 }

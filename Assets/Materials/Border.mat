@@ -33,9 +33,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_2f9e1dff122e488b950406ade663043c: 1.5
-    - Vector1_9af3c5ef3ed4485989f4a99ef376aa1b: 0.8
-    - Vector1_b9efc7ab21484d9286eab520ed3b91ef: 4
+    - Vector1_2f9e1dff122e488b950406ade663043c: 1
+    - Vector1_9af3c5ef3ed4485989f4a99ef376aa1b: 1
+    - Vector1_b9efc7ab21484d9286eab520ed3b91ef: 2
+    - _MaxOpacity: 1
     - _MinOpacity: 1
     m_Colors:
     - _PlayerPos: {r: 0, g: 0, b: 0, a: 0}

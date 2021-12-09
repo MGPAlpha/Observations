@@ -135,9 +135,9 @@ public class Datapad : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (pause && pause.paused) return;
+        if (PauseManager.paused) return;
         
-        bool active = Input.GetMouseButton(1);
+        bool active = !Keypad._kp && Input.GetMouseButton(1);
         motionTime = Mathf.MoveTowards(motionTime, active ? moveTime : 0, Time.deltaTime);
 
         float motionProgress = Mathf.SmoothStep(0,1,motionTime / moveTime);

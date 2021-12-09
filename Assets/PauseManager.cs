@@ -7,7 +7,7 @@ public class PauseManager : MonoBehaviour
 {
     [SerializeField] private GameObject pauseMenu;
     
-    public bool paused {
+    public static bool paused {
         get;
         private set;
     } = false;
@@ -32,7 +32,7 @@ public class PauseManager : MonoBehaviour
     public void SetPaused(bool p) {
         paused = p;
         Time.timeScale = p ? 0 : 1;
-        Cursor.lockState = p ? CursorLockMode.None : CursorLockMode.Locked;
+        Cursor.lockState = (p || Keypad._kp) ? CursorLockMode.None : CursorLockMode.Locked;
         // Cursor.visible = !p;
         pauseMenu.SetActive(p);
     }
