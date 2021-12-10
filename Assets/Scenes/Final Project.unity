@@ -26117,7 +26117,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh63890
+  m_Name: pb_Mesh19052
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -28340,6 +28340,38 @@ PrefabInstance:
     - target: {fileID: 2114996037, guid: 448f1c1f2f8df707aa1d8127ad746a9d, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2114996038, guid: 448f1c1f2f8df707aa1d8127ad746a9d, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 799.93
+      objectReference: {fileID: 0}
+    - target: {fileID: 2114996039, guid: 448f1c1f2f8df707aa1d8127ad746a9d, type: 3}
+      propertyPath: m_text
+      value: 'HELP
+
+
+        You can view this help screen by holding [Q] while looking
+        at the datapad.
+
+        Use your scanner [Hold Left Click] to scan data
+        drives and recover audio logs.
+
+        New audio logs will appear onscreen.
+        Press [1-5] to play them. Use [R] and [F] to scroll through multiple.
+
+        Switch
+        to the radar screen with [E] to find more audio logs.
+
+        You can interact
+        with keypads by aiming at them and pressing [E].'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2114996039, guid: 448f1c1f2f8df707aa1d8127ad746a9d, type: 3}
+      propertyPath: m_margin.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2114996039, guid: 448f1c1f2f8df707aa1d8127ad746a9d, type: 3}
+      propertyPath: m_margin.z
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 2114996039, guid: 448f1c1f2f8df707aa1d8127ad746a9d, type: 3}
       propertyPath: m_fontColor32.rgba
