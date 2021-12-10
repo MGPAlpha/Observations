@@ -20,37 +20,6 @@
      id="defs884">
     <mask
        maskUnits="userSpaceOnUse"
-       id="mask1515">
-      <g
-         id="g1525"
-         style="stroke-width:1">
-        <rect
-           style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.64583325;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           id="rect1517"
-           width="370.41666"
-           height="132.29166"
-           x="-53.672619"
-           y="165.46428" />
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-           x="-27.214287"
-           y="232.74403"
-           id="text1523"><tspan
-             sodipodi:role="line"
-             id="tspan1519"
-             x="-27.214287"
-             y="232.74403"
-             style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:50.79999924px;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.26458332">Observations</tspan><tspan
-             sodipodi:role="line"
-             x="-27.214287"
-             y="266.98325"
-             style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:16.93333244px;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.26458332"
-             id="tspan1521">On A Nearly Lifeless Planet</tspan></text>
-      </g>
-    </mask>
-    <mask
-       maskUnits="userSpaceOnUse"
        id="mask2146">
       <g
          style="stroke-width:1"
@@ -105,29 +74,93 @@
     </mask>
     <mask
        maskUnits="userSpaceOnUse"
-       id="mask849">
+       id="mask980">
       <g
          style="stroke-width:1"
-         transform="translate(266.09524,220.73809)"
-         id="g857">
+         id="g990">
         <rect
-           y="210.14107"
-           x="-36.663689"
-           height="32.808327"
-           width="166.30952"
-           style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.64583325;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           id="rect851" />
+           y="165.46428"
+           x="-53.672619"
+           height="102.43154"
+           width="407.08035"
+           id="rect982"
+           style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.64583325;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
         <text
+           id="text988"
            y="232.74403"
            x="-27.214287"
            style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
            xml:space="preserve"
-           id="text855"><tspan
+           inkscape:label="text1523"><tspan
+             id="tspan986"
              style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:16.93333244px;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.26458332"
              y="232.74403"
              x="-27.214287"
+             sodipodi:role="line"><tspan
+               id="tspan984"
+               style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:50.79999924px;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.26458332">The Expedition</tspan></tspan></text>
+      </g>
+    </mask>
+    <mask
+       maskUnits="userSpaceOnUse"
+       id="mask1636">
+      <g
+         id="g1658"
+         transform="translate(266.09524,220.73809)"
+         style="stroke-width:1">
+        <rect
+           id="rect1638"
+           style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.64583325;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           width="154.21429"
+           height="140.15355"
+           x="-36.663689"
+           y="210.1411" />
+        <text
+           id="text1656"
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           x="-27.214287"
+           y="232.74403"><tspan
+             id="tspan1640"
              sodipodi:role="line"
-             id="tspan853">By Mitchell Philipp</tspan></text>
+             x="-27.214287"
+             y="232.74403"
+             style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:16.93333244px;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.26458332">By:</tspan><tspan
+             sodipodi:role="line"
+             x="-27.214287"
+             y="251.47231"
+             style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:14.11111164px;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.26458332"
+             id="tspan1642">Mitchell Philipp</tspan><tspan
+             sodipodi:role="line"
+             x="-27.214287"
+             y="269.11118"
+             style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:14.11111164px;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.26458332"
+             id="tspan1644">Vanessa Hernandez</tspan><tspan
+             sodipodi:role="line"
+             x="-27.214287"
+             y="286.75009"
+             style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:14.11111164px;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.26458332"
+             id="tspan1646">Peini Jang</tspan><tspan
+             sodipodi:role="line"
+             x="-27.214287"
+             y="304.38898"
+             style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:14.11111164px;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.26458332"
+             id="tspan1648">Soham Kar</tspan><tspan
+             sodipodi:role="line"
+             x="-27.214287"
+             y="322.02786"
+             style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:14.11111164px;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.26458332"
+             id="tspan1650">Shivali Pandya</tspan><tspan
+             sodipodi:role="line"
+             x="-27.214287"
+             y="339.66675"
+             style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:14.11111164px;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.26458332"
+             id="tspan1652">Matthew Spencer</tspan><tspan
+             sodipodi:role="line"
+             x="-27.214287"
+             y="354.47742"
+             style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:16.93333244px;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.26458332"
+             id="tspan1654" /></text>
       </g>
     </mask>
   </defs>
@@ -139,8 +172,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="1022.0116"
-     inkscape:cy="-382.04952"
+     inkscape:cx="1004.8687"
+     inkscape:cy="-534.90666"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -170,11 +203,11 @@
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.64583325;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect1499"
-       width="370.41666"
-       height="132.29166"
+       width="407.08035"
+       height="102.43154"
        x="-53.672619"
        y="165.46428"
-       mask="url(#mask1515)"
+       mask="url(#mask980)"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
     <rect
@@ -200,11 +233,11 @@
     <rect
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
-       mask="url(#mask849)"
-       y="430.87915"
+       mask="url(#mask1636)"
+       y="430.87918"
        x="229.43155"
-       height="32.808327"
-       width="166.30952"
+       height="140.15355"
+       width="154.21429"
        id="rect839"
        style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.64583325;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   </g>
