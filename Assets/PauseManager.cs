@@ -7,10 +7,20 @@ public class PauseManager : MonoBehaviour
 {
     [SerializeField] private GameObject pauseMenu;
     
+    [SerializeField] private GameObject deathScreen;
+    [SerializeField] private float deathTime = 55;
+
+    private float deathTimer = 0;
+    private bool deathStarted = false;
+
     public static bool paused {
         get;
         private set;
     } = false;
+
+    public void StartDeath() {
+        deathStarted = true;
+    }
     
     // Start is called before the first frame update
     void Start()
@@ -21,9 +31,24 @@ public class PauseManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyUp(KeyCode.Escape)) {
+        if (Input.GetKeyUp(KeyCode.Escape) && !deathStarted) {
             Toggle();
         }
+
+        if (deathStarted) {
+            deathTimer += Time.deltaTime;
+        }
+
+        if (deathScreen) {
+            deathScreen.SetActive(deathTimer > deathTime);
+        }
+
+        if (deathTimer > deathTime) {
+            Time.timeScale = 0;
+            paused = true;
+            Cursor.lockState = CursorLockMode.None;
+        }
+
         // Cursor.lockState = paused ? CursorLockMode.None : CursorLockMode.Locked;
         // Cursor.visible = !paused;
         // Debug.Log(Cursor.visible);
