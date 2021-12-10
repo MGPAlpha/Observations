@@ -60,6 +60,10 @@ public class Scanner : MonoBehaviour
                     targetFill = timeComplete / scanTime;
                     if (timeComplete >= scanTime) {
                         datapad.FindLog(r.transform.gameObject);
+                        OnScan onScan;
+                        if (r.transform.TryGetComponent<OnScan>(out onScan)) {
+                            onScan.Activate();
+                        }
                     }
                 }
             } else {
