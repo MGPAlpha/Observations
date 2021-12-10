@@ -2462,7 +2462,7 @@ MonoBehaviour:
   radarPrompt: {fileID: 380042970}
   stopPrompt: {fileID: 1074922250}
   logsPrompt: {fileID: 7576553}
-  initialHelpScreenTime: 3
+  initialHelpScreenTime: 6
   sleepTime: 5
   maxLogsOnScreen: 5
   maxRadarDistance: 50
@@ -2758,7 +2758,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 590.2, y: 525}
+  m_SizeDelta: {x: 706.6, y: 610}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2114996040
 CanvasRenderer:
@@ -2788,13 +2788,20 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Use your scanner [Hold Left Click] to scan objects and recover audio logs.
+  m_text: 'HELP
 
-    New
-    audio logs will appear onscreen.
 
-    Use the radar screen [E] to find more audio
-    logs.'
+    You can view this help screen by holding [Q] while looking
+    at the datapad.
+
+    Use your scanner [Hold Left Click] to scan data drives and
+    recover audio logs.
+
+    New audio logs will appear onscreen. Press [1-5] to
+    play them. Use [R] and [F] to scroll through multiple.
+
+    Switch to the radar
+    screen with [E] to find more audio logs.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2835,7 +2842,7 @@ MonoBehaviour:
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
+  m_paragraphSpacing: 40
   m_charWidthMaxAdj: 0
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4

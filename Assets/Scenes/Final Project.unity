@@ -28322,6 +28322,14 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 2114996037, guid: 448f1c1f2f8df707aa1d8127ad746a9d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2114996039, guid: 448f1c1f2f8df707aa1d8127ad746a9d, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4294939487
+      objectReference: {fileID: 0}
     - target: {fileID: 2118091829, guid: 448f1c1f2f8df707aa1d8127ad746a9d, type: 3}
       propertyPath: m_Layer
       value: 5
